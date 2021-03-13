@@ -1,17 +1,10 @@
-Webscrapper PCEL
+%h1 
+  Webscrapper PCEL
 
-%hr
-  = simple_form_for search_product do |f|
-  .form-group
-    = f.input :product, label: "Ingresa el producto que deseas buscar"
-    = f.input :sort, label: "Orden de despliegue", as: :radio_buttons, required: false do
-      .radio
-        %label.radio-inline
-          = f.radio_button :sort, "annual"
-          Anual
-        %label.radio-inline
-          = f.radio_button :sort, "simple"
-          Simple
+
+  = simple_form_for(@search_product, url: search_product_index_path(@search_product), :validation => true) do |f|
+    .form-control
+      = f.input :product, label: "Ingresa el producto que deseas buscar"
+    = f.collection_radio_buttons :sort, [["asc", 'Ascendiente'] ,["dsc", 'Descendiente']], :first, :last
     = f.input :quantity, label: "Cantidad de productos que deseas ver"
-    = f.submit "Guardar", class: "btn btn-primary"
-<% end %>
+    = f.button :submit

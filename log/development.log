@@ -2518,3 +2518,725 @@ app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_end,
 app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
 app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_ensure, expecting ')'
 app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for ::1 at 2021-03-13 13:16:24 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 2.7ms | Allocations: 3694)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 4908)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check Webscrapper PCEL
+
+%hr
+  = simple_form_for(@search_product) do |f|
+  .form-group
+    = f.input :product, label: "Ingresa el producto que deseas buscar"
+    = f.input :sort, label: "Orden de despliegue", as: :radio_buttons, required: false do
+      .radio
+        %label.radio-inline
+          = f.radio_button :sort, "annual"
+          Anual
+        %label.radio-inline
+          = f.radio_button :sort, "simple"
+          Simple
+    = f.input :quantity, label: "Cantidad de productos que deseas ver"
+    = f.submit "Guardar", class: "btn btn-primary"
+<% end %>
+):
+1:    Webscrapper PCEL
+2:    
+3:    %hr
+4:      = simple_form_for(@search_product) do |f|
+5:      .form-group
+6:        = f.input :product, label: "Ingresa el producto que deseas buscar"
+7:        = f.input :sort, label: "Orden de despliegue", as: :radio_buttons, required: false do
+8:          .radio
+9:            %label.radio-inline
+10:              = f.radio_button :sort, "annual"
+11:              Anual
+12:            %label.radio-inline
+13:              = f.radio_button :sort, "simple"
+14:              Simple
+15:        = f.input :quantity, label: "Cantidad de productos que deseas ver"
+16:        = f.submit "Guardar", class: "btn btn-primary"
+17:    <% end %>
+  
+app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for ::1 at 2021-03-13 13:17:28 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 187.6ms | Allocations: 99814)
+Completed 500 Internal Server Error in 190ms (ActiveRecord: 0.0ms | Allocations: 101002)
+
+
+  
+ActionView::Template::Error (undefined method `search_products_path' for #<#<Class:0x00007fbc1c4acd58>:0x00007fbc1c4a7100>
+Did you mean?  search_product_index_path):
+    1: Webscrapper PCEL
+    2: 
+    3: %hr
+    4:   = simple_form_for(@search_product) do |f|
+    5:     = f.input :product, label: "Ingresa el producto que deseas buscar"
+    6:     = f.input :sort, label: "Orden de despliegue", as: :radio_buttons, required: false do
+    7:       .radio
+  
+app/views/search_product/new.html.haml:4
+Started GET "/" for ::1 at 2021-03-13 13:17:46 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 3.6ms | Allocations: 3821)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 4999)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for nil:NilClass):
+    1: Webscrapper PCEL
+    2: 
+    3: %hr
+    4:   = simple_form_for(@search_product_index_path) do |f|
+    5:     = f.input :product, label: "Ingresa el producto que deseas buscar"
+    6:     = f.input :sort, label: "Orden de despliegue", as: :radio_buttons, required: false do
+    7:       .radio
+  
+app/views/search_product/new.html.haml:4
+Started GET "/" for ::1 at 2021-03-13 13:19:41 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 2.7ms | Allocations: 3448)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 4627)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check Webscrapper PCEL
+
+%hr
+  = simple_form_for(@search_product, url: search_product_index_path(@search_product) do |f|
+    = f.input :product, label: "Ingresa el producto que deseas buscar"
+    = f.input :sort, label: "Orden de despliegue", as: :radio_buttons, required: false do
+      .radio
+        %label.radio-inline
+          = f.radio_button :sort, "annual"
+          Anual
+        %label.radio-inline
+          = f.radio_button :sort, "simple"
+          Simple
+    = f.input :quantity, label: "Cantidad de productos que deseas ver"
+    = f.submit "Guardar", class: "btn btn-primary"
+<% end %>
+):
+1:    Webscrapper PCEL
+2:    
+3:    %hr
+4:      = simple_form_for(@search_product, url: search_product_index_path(@search_product) do |f|
+5:        = f.input :product, label: "Ingresa el producto que deseas buscar"
+6:        = f.input :sort, label: "Orden de despliegue", as: :radio_buttons, required: false do
+7:          .radio
+8:            %label.radio-inline
+9:              = f.radio_button :sort, "annual"
+10:              Anual
+11:            %label.radio-inline
+12:              = f.radio_button :sort, "simple"
+13:              Simple
+14:        = f.input :quantity, label: "Cantidad de productos que deseas ver"
+15:        = f.submit "Guardar", class: "btn btn-primary"
+16:    <% end %>
+  
+app/views/search_product/new.html.haml:16: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected ';', expecting ')'
+Started GET "/" for ::1 at 2021-03-13 13:19:49 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 2.6ms | Allocations: 3429)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 4616)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check Webscrapper PCEL
+
+%hr
+  = simple_form_for(@search_product, url: search_product_index_path(@search_product) do |f|
+    = f.input :product, label: "Ingresa el producto que deseas buscar"
+    = f.input :sort, label: "Orden de despliegue", as: :radio_buttons, required: false do
+      .radio
+        %label.radio-inline
+          = f.radio_button :sort, "annual"
+          Anual
+        %label.radio-inline
+          = f.radio_button :sort, "simple"
+          Simple
+    = f.input :quantity, label: "Cantidad de productos que deseas ver"
+    = f.submit "Guardar", class: "btn btn-primary"
+):
+1:    Webscrapper PCEL
+2:    
+3:    %hr
+4:      = simple_form_for(@search_product, url: search_product_index_path(@search_product) do |f|
+5:        = f.input :product, label: "Ingresa el producto que deseas buscar"
+6:        = f.input :sort, label: "Orden de despliegue", as: :radio_buttons, required: false do
+7:          .radio
+8:            %label.radio-inline
+9:              = f.radio_button :sort, "annual"
+10:              Anual
+11:            %label.radio-inline
+12:              = f.radio_button :sort, "simple"
+13:              Simple
+14:        = f.input :quantity, label: "Cantidad de productos que deseas ver"
+15:        = f.submit "Guardar", class: "btn btn-primary"
+  
+app/views/search_product/new.html.haml:16: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected ';', expecting ')'
+Started GET "/" for ::1 at 2021-03-13 13:20:31 -0600
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 6.3ms | Allocations: 5860)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.5ms | Allocations: 13800)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check Webscrapper PCEL
+
+%hr
+  = simple_form_for(@search_product, url: search_product_index_path(@search_product) do |f|
+    = f.input :product, label: "Ingresa el producto que deseas buscar"
+    = f.input :sort, label: "Orden de despliegue", as: :radio_buttons, required: false do
+      .radio
+        %label.radio-inline
+          = f.radio_button :sort, "annual"
+          Anual
+        %label.radio-inline
+          = f.radio_button :sort, "simple"
+          Simple
+    = f.input :quantity, label: "Cantidad de productos que deseas ver"
+    = f.submit "Guardar", class: "btn btn-primary"
+):
+1:    Webscrapper PCEL
+2:    
+3:    %hr
+4:      = simple_form_for(@search_product, url: search_product_index_path(@search_product) do |f|
+5:        = f.input :product, label: "Ingresa el producto que deseas buscar"
+6:        = f.input :sort, label: "Orden de despliegue", as: :radio_buttons, required: false do
+7:          .radio
+8:            %label.radio-inline
+9:              = f.radio_button :sort, "annual"
+10:              Anual
+11:            %label.radio-inline
+12:              = f.radio_button :sort, "simple"
+13:              Simple
+14:        = f.input :quantity, label: "Cantidad de productos que deseas ver"
+15:        = f.submit "Guardar", class: "btn btn-primary"
+  
+app/views/search_product/new.html.haml:16: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected ';', expecting ')'
+Started POST "/__web_console/repl_sessions/95069b15bb896fbaefa0cee06391f6c4/trace" for ::1 at 2021-03-13 13:21:12 -0600
+Started POST "/__web_console/repl_sessions/95069b15bb896fbaefa0cee06391f6c4/trace" for ::1 at 2021-03-13 13:21:13 -0600
+Started GET "/" for ::1 at 2021-03-13 13:32:07 -0600
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 6.6ms | Allocations: 5860)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.5ms | Allocations: 13802)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check Webscrapper PCEL
+
+%hr
+  = simple_form_for(@search_product, url: search_product_index_path(@search_product) do |f|
+    = f.input :product, label: "Ingresa el producto que deseas buscar"
+    = f.input :sort, label: "Orden de despliegue", as: :radio_buttons, required: false do
+      .radio
+        %label.radio-inline
+          = f.radio_button :sort, "annual"
+          Anual
+        %label.radio-inline
+          = f.radio_button :sort, "simple"
+          Simple
+    = f.input :quantity, label: "Cantidad de productos que deseas ver"
+    = f.submit "Guardar", class: "btn btn-primary"
+):
+1:    Webscrapper PCEL
+2:    
+3:    %hr
+4:      = simple_form_for(@search_product, url: search_product_index_path(@search_product) do |f|
+5:        = f.input :product, label: "Ingresa el producto que deseas buscar"
+6:        = f.input :sort, label: "Orden de despliegue", as: :radio_buttons, required: false do
+7:          .radio
+8:            %label.radio-inline
+9:              = f.radio_button :sort, "annual"
+10:              Anual
+11:            %label.radio-inline
+12:              = f.radio_button :sort, "simple"
+13:              Simple
+14:        = f.input :quantity, label: "Cantidad de productos que deseas ver"
+15:        = f.submit "Guardar", class: "btn btn-primary"
+  
+app/views/search_product/new.html.haml:16: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected ';', expecting ')'
+Started GET "/" for ::1 at 2021-03-13 13:34:45 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 2.3ms | Allocations: 3451)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 4669)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check Webscrapper PCEL
+
+%hr
+  = simple_form_for(@search_product, url: search_product_index_path(@search_product) do |f|
+    = f.input :product, label: "Ingresa el producto que deseas buscar"
+    = f.input :sort, label: "Orden de despliegue", as: :radio_buttons, required: false do
+      .radio
+        %label.radio-inline
+          = f.radio_button :sort, "annual"
+          Anual
+        %label.radio-inline
+          = f.radio_button :sort, "simple"
+          Simple
+    = f.input :quantity, label: "Cantidad de productos que deseas ver"
+    = f.button :submit, label: "Update Password", class: "btn btn-primary"
+):
+1:    Webscrapper PCEL
+2:    
+3:    %hr
+4:      = simple_form_for(@search_product, url: search_product_index_path(@search_product) do |f|
+5:        = f.input :product, label: "Ingresa el producto que deseas buscar"
+6:        = f.input :sort, label: "Orden de despliegue", as: :radio_buttons, required: false do
+7:          .radio
+8:            %label.radio-inline
+9:              = f.radio_button :sort, "annual"
+10:              Anual
+11:            %label.radio-inline
+12:              = f.radio_button :sort, "simple"
+13:              Simple
+14:        = f.input :quantity, label: "Cantidad de productos que deseas ver"
+15:        = f.button :submit, label: "Update Password", class: "btn btn-primary"
+  
+app/views/search_product/new.html.haml:16: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected ';', expecting ')'
+Started GET "/" for ::1 at 2021-03-13 13:37:41 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 3.2ms | Allocations: 3510)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 4697)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check %h1 
+  Webscrapper PCEL
+
+%hr
+  = simple_form_for(@search_product, url: search_product_index_path(@search_product) do |f|
+    = f.input :product, label: "Ingresa el producto que deseas buscar"
+    = f.input :sort, label: "Orden de despliegue", as: :radio_buttons, required: false do
+      .radio
+        %label.radio-inline
+          = f.radio_button :sort, "annual"
+          Anual
+        %label.radio-inline
+          = f.radio_button :sort, "simple"
+          Simple
+    = f.input :quantity, label: "Cantidad de productos que deseas ver"
+    = f.button :submit, label: "Update Password", class: "btn btn-primary"
+):
+1:    %h1 
+2:      Webscrapper PCEL
+3:    
+4:    %hr
+5:      = simple_form_for(@search_product, url: search_product_index_path(@search_product) do |f|
+6:        = f.input :product, label: "Ingresa el producto que deseas buscar"
+7:        = f.input :sort, label: "Orden de despliegue", as: :radio_buttons, required: false do
+8:          .radio
+9:            %label.radio-inline
+10:              = f.radio_button :sort, "annual"
+11:              Anual
+12:            %label.radio-inline
+13:              = f.radio_button :sort, "simple"
+14:              Simple
+15:        = f.input :quantity, label: "Cantidad de productos que deseas ver"
+16:        = f.button :submit, label: "Update Password", class: "btn btn-primary"
+  
+app/views/search_product/new.html.haml:17: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected ';', expecting ')'
+Started POST "/__web_console/repl_sessions/6637a7c1388f965b297d642445ae3a6d/trace" for ::1 at 2021-03-13 13:37:43 -0600
+Started GET "/" for ::1 at 2021-03-13 13:41:05 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 2.4ms | Allocations: 3737)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 4916)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check %h1 
+  Webscrapper PCEL
+
+.fieldset
+  = simple_form_for(@search_product, url: search_product_index_path(@search_product) do |f|
+    = f.input :product, label: "Ingresa el producto que deseas buscar"
+    = f.input :sort, label: "Orden de despliegue", as: :radio_buttons, required: false do
+      .radio
+        %label.radio-inline
+          = f.radio_button :sort, "annual"
+          Anual
+        %label.radio-inline
+          = f.radio_button :sort, "simple"
+          Simple
+    = f.input :quantity, label: "Cantidad de productos que deseas ver"
+    %p
+      = f.button :submit
+):
+1:    %h1 
+2:      Webscrapper PCEL
+3:    
+4:    .fieldset
+5:      = simple_form_for(@search_product, url: search_product_index_path(@search_product) do |f|
+6:        = f.input :product, label: "Ingresa el producto que deseas buscar"
+7:        = f.input :sort, label: "Orden de despliegue", as: :radio_buttons, required: false do
+8:          .radio
+9:            %label.radio-inline
+10:              = f.radio_button :sort, "annual"
+11:              Anual
+12:            %label.radio-inline
+13:              = f.radio_button :sort, "simple"
+14:              Simple
+15:        = f.input :quantity, label: "Cantidad de productos que deseas ver"
+16:        %p
+17:          = f.button :submit
+  
+app/views/search_product/new.html.haml:18: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:18: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:18: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:18: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:18: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:18: syntax error, unexpected ';', expecting ')'
+Started GET "/" for ::1 at 2021-03-13 13:41:50 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 2.2ms | Allocations: 3042)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 4229)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check %h1 
+  Webscrapper PCEL
+
+.fieldset
+  = simple_form_for(@search_product, url: search_product_index_path(@search_product) do |f|
+    = f.input :product, label: "Ingresa el producto que deseas buscar"
+    = f.input :sort, label: "Orden de despliegue", as: :radio_buttons, required: false do
+    = f.radio_button :sort, "annual"
+      Anual
+    = f.radio_button :sort, "simple"
+      Simple
+    = f.input :quantity, label: "Cantidad de productos que deseas ver"
+    %p
+      = f.button :submit
+):
+1:    %h1 
+2:      Webscrapper PCEL
+3:    
+4:    .fieldset
+5:      = simple_form_for(@search_product, url: search_product_index_path(@search_product) do |f|
+6:        = f.input :product, label: "Ingresa el producto que deseas buscar"
+7:        = f.input :sort, label: "Orden de despliegue", as: :radio_buttons, required: false do
+8:        = f.radio_button :sort, "annual"
+9:          Anual
+10:        = f.radio_button :sort, "simple"
+11:          Simple
+12:        = f.input :quantity, label: "Cantidad de productos que deseas ver"
+13:        %p
+14:          = f.button :submit
+  
+app/views/search_product/new.html.haml:8: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:9: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:11: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:15: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:15: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:15: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:8: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:9: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:11: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:15: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:15: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:15: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:8: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:9: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:11: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:15: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:15: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:15: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:8: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:9: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:11: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:15: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:15: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:15: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:8: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:9: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:11: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:15: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:15: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:15: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:8: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:9: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:11: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:15: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:15: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:15: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for ::1 at 2021-03-13 13:46:08 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 2.1ms | Allocations: 2920)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 4106)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check %h1 
+  Webscrapper PCEL
+
+.fieldset
+  = simple_form_for(@search_product, url: search_product_index_path(@search_product) do |f|
+    = f.input :product, label: "Ingresa el producto que deseas buscar"
+    = f.input :sort, label: "Orden de despliegue", as: :radio_buttons, required: false do
+    = f.collection_radio_buttons :options, [["asc", 'Ascendiente'] ,["dsc", 'Descendiente']], :first, :last
+    = f.input :quantity, label: "Cantidad de productos que deseas ver"
+    %p
+      = f.button :submit
+):
+1:    %h1 
+2:      Webscrapper PCEL
+3:    
+4:    .fieldset
+5:      = simple_form_for(@search_product, url: search_product_index_path(@search_product) do |f|
+6:        = f.input :product, label: "Ingresa el producto que deseas buscar"
+7:        = f.input :sort, label: "Orden de despliegue", as: :radio_buttons, required: false do
+8:        = f.collection_radio_buttons :options, [["asc", 'Ascendiente'] ,["dsc", 'Descendiente']], :first, :last
+9:        = f.input :quantity, label: "Cantidad de productos que deseas ver"
+10:        %p
+11:          = f.button :submit
+  
+app/views/search_product/new.html.haml:8: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:12: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:12: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:12: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:8: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:12: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:12: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:12: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:8: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:12: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:12: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:12: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:8: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:12: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:12: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:12: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:8: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:12: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:12: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:12: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:8: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:12: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:12: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:12: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for ::1 at 2021-03-13 13:46:57 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 2.2ms | Allocations: 2860)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 4039)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check %h1 
+  Webscrapper PCEL
+
+.fieldset
+  = simple_form_for(@search_product, url: search_product_index_path(@search_product) do |f|
+    = f.input :product, label: "Ingresa el producto que deseas buscar"
+    = f.collection_radio_buttons :sort, [["asc", 'Ascendiente'] ,["dsc", 'Descendiente']], :first, :last
+    = f.input :quantity, label: "Cantidad de productos que deseas ver"
+    %p
+      = f.button :submit
+):
+1:    %h1 
+2:      Webscrapper PCEL
+3:    
+4:    .fieldset
+5:      = simple_form_for(@search_product, url: search_product_index_path(@search_product) do |f|
+6:        = f.input :product, label: "Ingresa el producto que deseas buscar"
+7:        = f.collection_radio_buttons :sort, [["asc", 'Ascendiente'] ,["dsc", 'Descendiente']], :first, :last
+8:        = f.input :quantity, label: "Cantidad de productos que deseas ver"
+9:        %p
+10:          = f.button :submit
+  
+app/views/search_product/new.html.haml:11: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:11: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:11: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:11: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:11: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:11: syntax error, unexpected ';', expecting ')'
+Started GET "/" for ::1 at 2021-03-13 13:47:42 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 2.3ms | Allocations: 2859)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 4038)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check %h1 
+  Webscrapper PCEL
+
+.fieldset
+  = simple_form_for(@search_product, url: search_product_index_path(@search_product) do |f|
+    = f.input :product, label: "Ingresa el producto que deseas buscar"
+    = f.collection_radio_buttons :sort, [["asc", 'Ascendiente'] ,["dsc", 'Descendiente']], :first, :last
+    = f.input :quantity, label: "Cantidad de productos que deseas ver"
+  %p
+    = f.button :submit
+):
+1:    %h1 
+2:      Webscrapper PCEL
+3:    
+4:    .fieldset
+5:      = simple_form_for(@search_product, url: search_product_index_path(@search_product) do |f|
+6:        = f.input :product, label: "Ingresa el producto que deseas buscar"
+7:        = f.collection_radio_buttons :sort, [["asc", 'Ascendiente'] ,["dsc", 'Descendiente']], :first, :last
+8:        = f.input :quantity, label: "Cantidad de productos que deseas ver"
+9:      %p
+10:        = f.button :submit
+  
+app/views/search_product/new.html.haml:9: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:9: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:9: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:9: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:9: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:9: syntax error, unexpected ';', expecting ')'
+Started GET "/" for ::1 at 2021-03-13 13:47:57 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 2.1ms | Allocations: 2777)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 3956)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check %h1 
+  Webscrapper PCEL
+
+.fieldset
+  = simple_form_for(@search_product, url: search_product_index_path(@search_product) do |f|
+    = f.input :product, label: "Ingresa el producto que deseas buscar"
+    = f.collection_radio_buttons :sort, [["asc", 'Ascendiente'] ,["dsc", 'Descendiente']], :first, :last
+    = f.input :quantity, label: "Cantidad de productos que deseas ver"
+    = f.button :submit
+):
+1:    %h1 
+2:      Webscrapper PCEL
+3:    
+4:    .fieldset
+5:      = simple_form_for(@search_product, url: search_product_index_path(@search_product) do |f|
+6:        = f.input :product, label: "Ingresa el producto que deseas buscar"
+7:        = f.collection_radio_buttons :sort, [["asc", 'Ascendiente'] ,["dsc", 'Descendiente']], :first, :last
+8:        = f.input :quantity, label: "Cantidad de productos que deseas ver"
+9:        = f.button :submit
+  
+app/views/search_product/new.html.haml:10: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:10: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:10: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:10: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:10: syntax error, unexpected ';', expecting ')'
+app/views/search_product/new.html.haml:10: syntax error, unexpected ';', expecting ')'
+Started GET "/" for ::1 at 2021-03-13 13:55:00 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 58.0ms | Allocations: 29156)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/miguelfdz/Desktop/webscrapping-activity/public/packs
+[Webpacker] Hash: f86639f4459f31b34f60
+Version: webpack 4.46.0
+Time: 1739ms
+Built at: 03/13/2021 1:55:04 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-07e792d2b65403c647a1.js    124 KiB  application  [emitted] [immutable]  application
+js/application-07e792d2b65403c647a1.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-07e792d2b65403c647a1.js js/application-07e792d2b65403c647a1.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 4776ms (Views: 4775.3ms | ActiveRecord: 0.0ms | Allocations: 51243)
+
+
+Started GET "/" for ::1 at 2021-03-13 13:56:56 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 16.3ms | Allocations: 7587)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.0ms | Allocations: 12662)
+
+
+Started GET "/" for ::1 at 2021-03-13 13:56:57 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 11.7ms | Allocations: 5668)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.0ms | Allocations: 9802)
+
+
+Started GET "/" for ::1 at 2021-03-13 13:59:18 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 12.5ms | Allocations: 7599)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms | Allocations: 12670)
+
+

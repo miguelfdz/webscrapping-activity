@@ -31,6 +31,8 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'simple_form'
 #Haml-rails provides Haml generators for Rails 5.
 gem "haml-rails", "~> 2.0"
+#Bootstrap 4 ruby gem for Ruby on Rails (Sprockets) and Hanami (formerly Lotus).
+gem 'bootstrap', '~> 5.0.0.beta2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
