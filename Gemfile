@@ -29,7 +29,8 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 #Simple Form aims to be as flexible as possible while helping you with powerful components to create your forms
 gem 'simple_form'
-
+#Haml-rails provides Haml generators for Rails 5.
+gem "haml-rails", "~> 2.0"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
