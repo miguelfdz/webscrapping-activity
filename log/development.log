@@ -3240,3 +3240,813 @@ Processing by SearchProductController#new as HTML
 Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms | Allocations: 12670)
 
 
+Started GET "/" for ::1 at 2021-03-13 14:03:49 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 12.8ms | Allocations: 5668)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 22.5ms | ActiveRecord: 0.0ms | Allocations: 9797)
+
+
+Started GET "/" for ::1 at 2021-03-13 14:20:14 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 14.3ms | Allocations: 5664)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 0cc728f3401a686e1ec0
+Version: webpack 4.46.0
+Time: 4676ms
+Built at: 03/13/2021 2:20:20 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-2a1a851cbda565d05271.js   1.32 MiB  application  [emitted] [immutable]  application
+js/application-2a1a851cbda565d05271.js.map   1.45 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-2a1a851cbda565d05271.js js/application-2a1a851cbda565d05271.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 914 bytes {application} [built]
+[./app/javascript/stylesheets/application.scss] 664 bytes {application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/javascript/stylesheets/application.scss] ./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss 674 KiB {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 8 hidden modules
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve 'stimulus' in '/Users/miguelfdz/Desktop/webscrapping-activity/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 13:0-39
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve 'stimulus/webpack-helpers' in '/Users/miguelfdz/Desktop/webscrapping-activity/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 14:0-66
+
+Completed 200 OK in 5945ms (Views: 5944.3ms | ActiveRecord: 0.0ms | Allocations: 10970)
+
+
+Started GET "/" for ::1 at 2021-03-13 14:21:55 -0600
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 51.2ms | Allocations: 24536)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 80ms (Views: 67.4ms | ActiveRecord: 0.5ms | Allocations: 38466)
+
+
+Started GET "/" for ::1 at 2021-03-13 14:22:14 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 15.4ms | Allocations: 5640)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 26.1ms | ActiveRecord: 0.0ms | Allocations: 9787)
+
+
+Started GET "/" for ::1 at 2021-03-13 14:22:22 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 18.4ms | Allocations: 7316)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 41.1ms | ActiveRecord: 0.0ms | Allocations: 12406)
+
+
+Started GET "/" for ::1 at 2021-03-13 14:22:23 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 9.5ms | Allocations: 5653)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 9801)
+
+
+Started GET "/" for ::1 at 2021-03-13 14:22:25 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 8.6ms | Allocations: 5636)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 9782)
+
+
+Started GET "/" for ::1 at 2021-03-13 14:22:27 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 10.0ms | Allocations: 5634)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 9774)
+
+
+Started GET "/" for ::1 at 2021-03-13 14:26:58 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 12.3ms | Allocations: 8380)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 20.5ms | ActiveRecord: 0.0ms | Allocations: 13462)
+
+
+Started GET "/" for ::1 at 2021-03-13 14:28:44 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 12.1ms | Allocations: 9101)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.0ms | Allocations: 14185)
+
+
+Started GET "/" for ::1 at 2021-03-13 14:29:50 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 11.9ms | Allocations: 9094)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 22.6ms | ActiveRecord: 0.0ms | Allocations: 14167)
+
+
+Started GET "/" for ::1 at 2021-03-13 14:29:52 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 9.1ms | Allocations: 5536)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 9685)
+
+
+Started GET "/" for ::1 at 2021-03-13 14:31:44 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 9.9ms | Allocations: 6949)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 8211)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %label and nested within it.):
+     6:     %form#search_product.form-horizontal{role: "form"}
+     7:       %fieldset
+     8:         %label.col-md-4.control-label{for: "textinput"} Text Input
+     9:           .col-md-4
+    10:               %input#textinput.form-control.input-md{name: "textinput", placeholder: "placeholder", style: "cursor: auto; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==); background-attachment: scroll; background-position: 100% 50%; background-repeat: no-repeat;", type: "text"}/
+    11:                 = f.input :product, label: "Ingresa el producto que deseas buscar"
+    12:         = f.collection_radio_buttons :sort, [["asc", 'Ascendiente'] ,["dsc", 'Descendiente']], :first, :last
+  
+app/views/search_product/new.html.haml:9
+Started GET "/" for ::1 at 2021-03-13 14:32:05 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 1.5ms | Allocations: 2049)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 3343)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %label and nested within it.):
+     6:     %form#search_product.form-horizontal{role: "form"}
+     7:       %fieldset
+     8:         %label.control-label{for: "textinput"} Text Input
+     9:           %input#textinput.form-control.input-md{name: "textinput", placeholder: "placeholder", style: "cursor: auto; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==); background-attachment: scroll; background-position: 100% 50%; background-repeat: no-repeat;", type: "text"}/
+    10:             = f.input :product, label: "Ingresa el producto que deseas buscar"
+    11:         = f.collection_radio_buttons :sort, [["asc", 'Ascendiente'] ,["dsc", 'Descendiente']], :first, :last
+    12:         = f.input :quantity, label: "Cantidad de productos que deseas ver"
+  
+app/views/search_product/new.html.haml:9
+Started GET "/" for ::1 at 2021-03-13 14:32:21 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 1.9ms | Allocations: 2042)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 3305)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %div and nested within it.):
+     6:     %form#search_product.form-horizontal{role: "form"}
+     7:       %fieldset
+     8:         .control-form{for: "textinput"} Text Input
+     9:           %input#textinput.form-control.input-md{name: "textinput", placeholder: "placeholder", style: "cursor: auto; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==); background-attachment: scroll; background-position: 100% 50%; background-repeat: no-repeat;", type: "text"}/
+    10:             = f.input :product, label: "Ingresa el producto que deseas buscar"
+    11:         = f.collection_radio_buttons :sort, [["asc", 'Ascendiente'] ,["dsc", 'Descendiente']], :first, :last
+    12:         = f.input :quantity, label: "Cantidad de productos que deseas ver"
+  
+app/views/search_product/new.html.haml:9
+Started GET "/" for ::1 at 2021-03-13 14:35:22 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 1.3ms | Allocations: 1809)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3073)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %span and nested within it.):
+     5:     .input-group.mb-3
+     6:       .input-group-prepend
+     7:         %span#basic-addon1.input-group-text @
+     8:           %input.form-control{"aria-describedby" => "basic-addon1", "aria-label" => "Username", :placeholder => "Username", :type => "text"}/
+     9:           = f.input :product, label: "Ingresa el producto que deseas buscar"
+    10:         = f.collection_radio_buttons :sort, [["asc", 'Ascendiente'] ,["dsc", 'Descendiente']], :first, :last
+    11:         = f.input :quantity, label: "Cantidad de productos que deseas ver"
+  
+app/views/search_product/new.html.haml:8
+Started GET "/" for ::1 at 2021-03-13 14:35:52 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 1.2ms | Allocations: 1809)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3072)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %span and nested within it.):
+     5:     .input-group.mb-3
+     6:       .input-group-prepend
+     7:         %span#basic-addon1.input-group-text @
+     8:           %input.form-control{"aria-describedby" => "basic-addon1", "aria-label" => "Porducto", :placeholder => "Producto", :type => "text"}/
+     9:             = f.input :product, label: "Ingresa el producto que deseas buscar"
+    10:         = f.collection_radio_buttons :sort, [["asc", 'Ascendiente'] ,["dsc", 'Descendiente']], :first, :last
+    11:         = f.input :quantity, label: "Cantidad de productos que deseas ver"
+  
+app/views/search_product/new.html.haml:8
+Started GET "/" for ::1 at 2021-03-13 14:36:08 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 1.7ms | Allocations: 2317)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3580)
+
+
+  
+ActionView::Template::Error (Illegal nesting: nesting within a self-closing tag is illegal.):
+     6:       .input-group-prepend
+     7:         %span#basic-addon1.input-group-text
+     8:           %input.form-control{"aria-describedby" => "basic-addon1", "aria-label" => "Porducto", :placeholder => "Producto", :type => "text"}/
+     9:             = f.input :product, label: "Ingresa el producto que deseas buscar"
+    10:         = f.collection_radio_buttons :sort, [["asc", 'Ascendiente'] ,["dsc", 'Descendiente']], :first, :last
+    11:         = f.input :quantity, label: "Cantidad de productos que deseas ver"
+    12:       .form-group{style: "margin-top:10px"}
+  
+app/views/search_product/new.html.haml:9
+Started GET "/" for ::1 at 2021-03-13 14:36:31 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 13.6ms | Allocations: 10296)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.0ms | Allocations: 15404)
+
+
+Started GET "/" for ::1 at 2021-03-13 14:36:45 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 8.7ms | Allocations: 7792)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.0ms | Allocations: 12864)
+
+
+Started GET "/" for ::1 at 2021-03-13 14:38:24 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 8.3ms | Allocations: 8205)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 13280)
+
+
+Started GET "/" for ::1 at 2021-03-13 14:39:07 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 8.9ms | Allocations: 8339)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 13411)
+
+
+Started GET "/" for ::1 at 2021-03-13 14:39:22 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 8.9ms | Allocations: 8411)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 13489)
+
+
+Started GET "/" for ::1 at 2021-03-13 14:39:38 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 8.8ms | Allocations: 8390)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 13472)
+
+
+Started GET "/" for ::1 at 2021-03-13 14:47:47 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 4.1ms | Allocations: 5241)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 6497)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check %h1 
+  Webscrapper PCEL
+
+= simple_form_for(@search_product, url: search_product_index_path(@search_product), :validation => true) do |f|
+%label{:for => "product"} Ingresa el productque deseas encontrar
+.input-group.mb-3
+  .input-group-prepend
+    %input#product.form-control{"aria-describedby" => "basic-addon3", :type => "text"}/
+    %br
+
+  = f.collection_radio_buttons :sort, [["asc", 'Ascendiente'] ,["dsc", 'Descendiente']], :first, :last
+  = f.input :quantity, label: "Cantidad de productos que deseas ver"
+  .form-group{style: "margin-top:10px"}
+    .form-actions.col-sm-12.controls
+      = f.button :submit, "Buscar", :html => { :id => 'btn-login', :class => 'btn btn-success' }   
+):
+1:    %h1 
+2:      Webscrapper PCEL
+3:    
+4:    = simple_form_for(@search_product, url: search_product_index_path(@search_product), :validation => true) do |f|
+5:    %label{:for => "product"} Ingresa el productque deseas encontrar
+6:    .input-group.mb-3
+7:      .input-group-prepend
+8:        %input#product.form-control{"aria-describedby" => "basic-addon3", :type => "text"}/
+9:        %br
+10:    
+11:      = f.collection_radio_buttons :sort, [["asc", 'Ascendiente'] ,["dsc", 'Descendiente']], :first, :last
+12:      = f.input :quantity, label: "Cantidad de productos que deseas ver"
+13:      .form-group{style: "margin-top:10px"}
+14:        .form-actions.col-sm-12.controls
+15:          = f.button :submit, "Buscar", :html => { :id => 'btn-login', :class => 'btn btn-success' }   
+  
+app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for ::1 at 2021-03-13 14:48:13 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 3.7ms | Allocations: 5215)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 6476)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check %h1 
+  Webscrapper PCEL
+
+= simple_form_for(@search_product, url: search_product_index_path(@search_product), :validation => true) do |f|
+%label{:for => "product"}
+  Ingresa el product que deseas encontrar
+.input-group.mb-3
+  .input-group-prepend
+    %input#product.form-control{"aria-describedby" => "basic-addon3", :type => "text"}/
+    %br
+
+  = f.collection_radio_buttons :sort, [["asc", 'Ascendiente'] ,["dsc", 'Descendiente']], :first, :last
+  = f.input :quantity, label: "Cantidad de productos que deseas ver"
+  .form-group{style: "margin-top:10px"}
+    .form-actions.col-sm-12.controls
+      = f.button :submit, "Buscar", :html => { :id => 'btn-login', :class => 'btn btn-success' }   
+):
+1:    %h1 
+2:      Webscrapper PCEL
+3:    
+4:    = simple_form_for(@search_product, url: search_product_index_path(@search_product), :validation => true) do |f|
+5:    %label{:for => "product"}
+6:      Ingresa el product que deseas encontrar
+7:    .input-group.mb-3
+8:      .input-group-prepend
+9:        %input#product.form-control{"aria-describedby" => "basic-addon3", :type => "text"}/
+10:        %br
+11:    
+12:      = f.collection_radio_buttons :sort, [["asc", 'Ascendiente'] ,["dsc", 'Descendiente']], :first, :last
+13:      = f.input :quantity, label: "Cantidad de productos que deseas ver"
+14:      .form-group{style: "margin-top:10px"}
+15:        .form-actions.col-sm-12.controls
+16:          = f.button :submit, "Buscar", :html => { :id => 'btn-login', :class => 'btn btn-success' }   
+  
+app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for ::1 at 2021-03-13 14:49:20 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 4.2ms | Allocations: 5201)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 5716)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check %h1 
+  Webscrapper PCEL
+
+= simple_form_for(@search_product, url: search_product_index_path(@search_product), :validation => true) do |f|
+%label{:for => "product"}
+  Ingresa el product que deseas encontrar
+.input-group.mb-3
+  .input-group-prepend
+    %input#product.form-control{"aria-describedby" => "basic-addon3", :type => "text"}/
+    %br
+
+  = f.collection_radio_buttons :sort, [["asc", 'Ascendiente'] ,["dsc", 'Descendiente']], :first, :last
+  = f.input :quantity, label: "Cantidad de productos que deseas ver"
+  .form-group{style: "margin-top:10px"}
+    .form-actions.col-sm-12.controls
+      = f.button :submit, "Buscar", :html => { :id => 'btn-login', :class => 'btn btn-success' }   
+):
+1:    %h1 
+2:      Webscrapper PCEL
+3:    
+4:    = simple_form_for(@search_product, url: search_product_index_path(@search_product), :validation => true) do |f|
+5:    %label{:for => "product"}
+6:      Ingresa el product que deseas encontrar
+7:    .input-group.mb-3
+8:      .input-group-prepend
+9:        %input#product.form-control{"aria-describedby" => "basic-addon3", :type => "text"}/
+10:        %br
+11:    
+12:      = f.collection_radio_buttons :sort, [["asc", 'Ascendiente'] ,["dsc", 'Descendiente']], :first, :last
+13:      = f.input :quantity, label: "Cantidad de productos que deseas ver"
+14:      .form-group{style: "margin-top:10px"}
+15:        .form-actions.col-sm-12.controls
+16:          = f.button :submit, "Buscar", :html => { :id => 'btn-login', :class => 'btn btn-success' }   
+  
+app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:17: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for ::1 at 2021-03-13 14:49:36 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 3.5ms | Allocations: 5246)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 6507)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check %h1 
+  Webscrapper PCEL
+
+= simple_form_for(@search_product, url: search_product_index_path(@search_product), :validation => true) do |f|
+%label{:for => "product"} Ingresa el productque deseas encontrar
+.input-group.mb-3
+  .input-group-prepend
+    %input#product.form-control{"aria-describedby" => "basic-addon3", :type => "text"}/
+    %br
+
+= f.collection_radio_buttons :sort, [["asc", 'Ascendiente'] ,["dsc", 'Descendiente']], :first, :last
+= f.input :quantity, label: "Cantidad de productos que deseas ver"
+.form-group{style: "margin-top:10px"}
+.form-actions.col-sm-12.controls
+  = f.button :submit, "Buscar", :html => { :id => 'btn-login', :class => 'btn btn-success' }   
+):
+1:    %h1 
+2:      Webscrapper PCEL
+3:    
+4:    = simple_form_for(@search_product, url: search_product_index_path(@search_product), :validation => true) do |f|
+5:    %label{:for => "product"} Ingresa el productque deseas encontrar
+6:    .input-group.mb-3
+7:      .input-group-prepend
+8:        %input#product.form-control{"aria-describedby" => "basic-addon3", :type => "text"}/
+9:        %br
+10:    
+11:    = f.collection_radio_buttons :sort, [["asc", 'Ascendiente'] ,["dsc", 'Descendiente']], :first, :last
+12:    = f.input :quantity, label: "Cantidad de productos que deseas ver"
+13:    .form-group{style: "margin-top:10px"}
+14:    .form-actions.col-sm-12.controls
+15:      = f.button :submit, "Buscar", :html => { :id => 'btn-login', :class => 'btn btn-success' }   
+  
+app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected keyword_end, expecting ')'
+app/views/search_product/new.html.haml:5: syntax error, unexpected ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/search_product/new.html.haml:16: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for ::1 at 2021-03-13 14:49:50 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 1.6ms | Allocations: 2067)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3327)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %span and nested within it.):
+     6: .input-group.mb-3
+     7:   .input-group-prepend
+     8:     %span#basic-addon3.input-group-text https://example.com/users/
+     9:       %input#basic-url.form-control{"aria-describedby" => "basic-addon3", :type => "text"}/
+    10:         %br
+    11:         %input.form-control{"aria-describedby" => "product", "aria-label" => "Producto", :placeholder => "Producto", :type => "text"}
+    12:         %br
+  
+app/views/search_product/new.html.haml:9
+Started GET "/" for ::1 at 2021-03-13 14:50:11 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 1.6ms | Allocations: 2054)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3314)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %span and nested within it.):
+     6: .input-group.mb-3
+     7:   .input-group-prepend
+     8:     %span#basic-addon3.input-group-text https://example.com/users/
+     9:       %input.form-control{"aria-describedby" => "product", "aria-label" => "Producto", :placeholder => "Producto", :type => "text"}
+    10:       %br
+    11:       = f.collection_radio_buttons :sort, [["asc", 'Ascendiente'] ,["dsc", 'Descendiente']], :first, :last
+    12:       = f.input :quantity, label: "Cantidad de productos que deseas ver"
+  
+app/views/search_product/new.html.haml:9
+Started GET "/" for ::1 at 2021-03-13 14:50:24 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 1.6ms | Allocations: 2053)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3313)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %span and nested within it.):
+     6: .input-group.mb-3
+     7:   .input-group-prepend
+     8:     %span#basic-addon3.input-group-text https://example.com/users/
+     9:       %input.form-control{"aria-describedby" => "product", "aria-label" => "Producto", :placeholder => "Producto", :type => "text"}
+    10:       %br
+    11:   = f.collection_radio_buttons :sort, [["asc", 'Ascendiente'] ,["dsc", 'Descendiente']], :first, :last
+    12:   = f.input :quantity, label: "Cantidad de productos que deseas ver"
+  
+app/views/search_product/new.html.haml:9
+Started GET "/" for ::1 at 2021-03-13 15:03:03 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 1.2ms | Allocations: 1705)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2965)
+
+
+  
+ActionView::Template::Error (The line was indented 2 levels deeper than the previous line.):
+    2:   Webscrapper PCEL
+    3: 
+    4: = simple_form_for(@search_product, url: search_product_index_path(@search_product), :validation => true) do |f|
+    5:     .col-md-9.col-xs-12
+    6:       .row
+    7:         .col-sm-8
+    8:           = f.input :product, label: "Prooducto que desea buscar"
+  
+app/views/search_product/new.html.haml:5
+Started GET "/" for ::1 at 2021-03-13 15:03:15 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 11.4ms | Allocations: 8880)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms | Allocations: 13962)
+
+
+Started GET "/" for ::1 at 2021-03-13 15:04:10 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 11.1ms | Allocations: 8836)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.0ms | Allocations: 13911)
+
+
+Started GET "/" for ::1 at 2021-03-13 15:04:18 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 11.6ms | Allocations: 8834)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.0ms | Allocations: 13907)
+
+
+Started POST "/search_product" for ::1 at 2021-03-13 15:04:38 -0600
+Processing by SearchProductController#create as HTML
+  Parameters: {"authenticity_token"=>"CyD8oiu+1vz2bnmmApss8rHgol31U8mwfeHEYw2c3spzJqVTjNitAfN/kreGVAXHmA2J2QbYsUoahghaJKPA2g==", "search_product"=>{"product"=>"pc", "sort"=>"asc", "quantity"=>"3"}, "commit"=>"Buscar"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 750)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/search_product_controller.rb:7:in `create'
+Started GET "/" for ::1 at 2021-03-13 15:05:32 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 12.7ms | Allocations: 9098)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms | Allocations: 14182)
+
+
+Started GET "/" for ::1 at 2021-03-13 15:05:33 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 9.0ms | Allocations: 5526)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 9671)
+
+
+Started GET "/" for ::1 at 2021-03-13 15:05:33 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 8.8ms | Allocations: 5522)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms | Allocations: 9665)
+
+
+Started GET "/" for ::1 at 2021-03-13 15:05:34 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 9.4ms | Allocations: 5520)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 9663)
+
+
+Started GET "/" for ::1 at 2021-03-13 15:05:34 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 8.6ms | Allocations: 5520)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 9665)
+
+
+Started GET "/" for ::1 at 2021-03-13 15:05:34 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 9.1ms | Allocations: 5520)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 9660)
+
+
+Started GET "/" for ::1 at 2021-03-13 15:05:34 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 10.0ms | Allocations: 5520)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms | Allocations: 9664)
+
+
+Started GET "/" for ::1 at 2021-03-13 15:05:34 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 10.2ms | Allocations: 5522)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.0ms | Allocations: 9666)
+
+
+Started GET "/" for ::1 at 2021-03-13 15:05:35 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 11.0ms | Allocations: 5532)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms | Allocations: 9676)
+
+
+Started GET "/" for ::1 at 2021-03-13 15:05:35 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 10.2ms | Allocations: 5520)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 9659)
+
+
+Started GET "/" for ::1 at 2021-03-13 15:05:35 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 8.8ms | Allocations: 5520)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 9662)
+
+
+Started GET "/" for ::1 at 2021-03-13 15:05:35 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 9.3ms | Allocations: 5520)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 9660)
+
+
+Started GET "/" for ::1 at 2021-03-13 15:05:35 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 10.8ms | Allocations: 5525)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 9681)
+
+
+Started GET "/" for ::1 at 2021-03-13 15:05:35 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 10.4ms | Allocations: 5520)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 9657)
+
+
+Started GET "/" for ::1 at 2021-03-13 15:05:36 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 9.9ms | Allocations: 5520)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 9663)
+
+
+Started GET "/" for ::1 at 2021-03-13 15:05:36 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 10.5ms | Allocations: 5520)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms | Allocations: 9663)
+
+
+Started GET "/" for ::1 at 2021-03-13 15:05:36 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 10.4ms | Allocations: 5520)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms | Allocations: 9662)
+
+
+Started GET "/" for ::1 at 2021-03-13 15:05:36 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 10.9ms | Allocations: 5522)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms | Allocations: 9663)
+
+
+Started GET "/" for ::1 at 2021-03-13 15:05:36 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 9.4ms | Allocations: 5520)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 9663)
+
+
+Started GET "/" for ::1 at 2021-03-13 15:05:36 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 12.0ms | Allocations: 5526)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.0ms | Allocations: 9668)
+
+
+Started GET "/" for ::1 at 2021-03-13 15:07:07 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 13.7ms | Allocations: 9093)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 23.2ms | ActiveRecord: 0.0ms | Allocations: 14174)
+
+
+Started GET "/" for ::1 at 2021-03-13 15:07:08 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 9.5ms | Allocations: 5526)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 9667)
+
+
+Started GET "/" for ::1 at 2021-03-13 15:07:09 -0600
+Processing by SearchProductController#new as HTML
+  Rendering search_product/new.html.haml within layouts/application
+  Rendered search_product/new.html.haml within layouts/application (Duration: 9.7ms | Allocations: 5522)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 9664)
+
+

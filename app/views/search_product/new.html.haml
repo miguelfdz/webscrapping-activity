@@ -1,10 +1,16 @@
 %h1 
   Webscrapper PCEL
 
-
-  = simple_form_for(@search_product, url: search_product_index_path(@search_product), :validation => true) do |f|
-    .form-control
-      = f.input :product, label: "Ingresa el producto que deseas buscar"
-    = f.collection_radio_buttons :sort, [["asc", 'Ascendiente'] ,["dsc", 'Descendiente']], :first, :last
-    = f.input :quantity, label: "Cantidad de productos que deseas ver"
-    = f.button :submit
+= simple_form_for(@search_product, url: search_product_index_path(@search_product), :validation => true) do |f|
+  .col-md-9.col-xs-12
+    .row
+      .col-sm-8
+        = f.input :product, label: "Prooducto que desea buscar"
+    .row
+      .col-sm-8
+        = f.collection_radio_buttons :sort, [["asc", 'Ascendiente'] ,["dsc", 'Descendiente']], :first, :last
+    .row
+      .col-sm-8
+        = f.input :quantity, label: "Cantidad de productos que deseas ver"
+  .btn-lg
+    = f.submit "Buscar", class: "btn btn-primary"
