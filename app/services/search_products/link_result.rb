@@ -1,4 +1,4 @@
-module SearchProduct
+module SearchProducts
   module LinkResult
     
     def self.build_link(params)
@@ -7,9 +7,9 @@ module SearchProduct
 
     class Builder
 
-      attr_reader: :product, :quantity, :sort
+      attr_reader :product, :quantity, :sort
 
-      def initializer(params)
+      def initialize(params)
         @product = params[:product]
         @quantity = params[:quantity]
         @sort = params[:sort]
