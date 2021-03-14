@@ -20,6 +20,12 @@ module SearchProducts
         "#{pcel_link}#{product_present_convertion}#{sort_present_convertion}#{quantity_present_convertion}"
       end
 
+      private
+
+      def pcel_link
+        "https://pcel.com/index.php?route=product/search"
+      end
+
       def product_to_link
         product = self.product.gsub(" ", "%20")
         "&filter_name=#{product}"
@@ -31,12 +37,6 @@ module SearchProducts
 
       def quantity_to_link
         "&limit=#{quantity}"
-      end
-
-      private
-
-      def pcel_link
-        "https://pcel.com/index.php?route=product/search"
       end
 
       def sort_translation
