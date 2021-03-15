@@ -4,7 +4,8 @@ class SearchProductController < ApplicationController
   end
 
   def create
-    link = SearchProducts::LinkResult.build_link(params[:search_product])
+    SearchProducts::LinkResult.build_link(params[:search_product])
+    SearchProducts::LinkResult.scrap_link
     oishdihsa
     if @search_product.save
       redirect_to new_search_product_path
