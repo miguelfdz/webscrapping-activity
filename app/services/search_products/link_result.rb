@@ -1,20 +1,14 @@
-require 'bundler/inline'
-
-gemfile do
-  source 'https://rubygems.org'
-  gem 'kimurai'
-end
-
-require 'kimurai'
+require_relative('../pcel_scrapper.rb')
 
 module SearchProducts
   module LinkResult
 
-    def self.build_link(params)
-      $link = Builder.new(params).link_with_params;
+    def self.generate_link(url_params)
+      url = Builder.new(url_params)
+      url.link_with_params
     end
 
-    def self.scrap_link
+    def self.scrap
       PcelScrapper.crawl!
     end
 
@@ -23,10 +17,10 @@ module SearchProducts
 
       attr_reader :product, :quantity, :sort
 
-      def initialize(params)
-        @product = params[:product]
-        @quantity = params[:quantity]
-        @sort = params[:sort]
+      def initialize(url_params)
+        @product = url_params[:product]
+        @quantity = url_params[:quantity]
+        @sort = url_params[:sort]
       end
 
       def link_with_params
@@ -78,38 +72,6 @@ module SearchProducts
 
       def has_sort?
         self.sort.present?
-      end
-    end
-
-    class PcelScrapper < Kimurai::Base
-      attr_accessor :link
-
-      puts $link
-      @name = 'slack_spider'
-      @engine = :mechanize
-      @start_urls = [$link]
-
-      def parse(response, url:, data: {})
-        @base_uri = 'https://pcel.com'
-        response = browser.current_response
-
-        response.css('tr').each do |row|
-          scraped_pcel_products(row)
-        end
-      end
-
-      private
-
-      def scraped_pcel_products(row)
-        item = {}
-        item[:name] = row.css('div.name a').text
-        item[:product_link] = row.css('div.name a').attr('href')
-        item[:price] = row.css('div.price').text
-        item[:image] = row.css('div.image img')
-
-        if item[:product_link] != nil
-          save_to "scraped_pcel_products.json", item, format: :pretty_json, position: false
-        end
       end
     end
   end

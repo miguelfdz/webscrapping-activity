@@ -4,11 +4,19 @@ class SearchProductController < ApplicationController
   end
 
   def create
-    SearchProducts::LinkResult.build_link(params[:search_product])
-    SearchProducts::LinkResult.scrap_link
-    oishdihsa
-    if @search_product.save
-      redirect_to new_search_product_path
-    end
+    link = SearchProducts::LinkResult.generate_link(params[:search_product])
+    add_link_to_txt_file(link)
+    sleep(5)
+    SearchProducts::LinkResult.scrap
+    sadjhkjh
+    redirect_to show_search_product_path
+  end
+
+  private
+
+  def add_link_to_txt_file(link)
+    file = File.open('pcel_link.txt', 'w') { |f|
+      f.write "#{link}"
+    }
   end
 end
