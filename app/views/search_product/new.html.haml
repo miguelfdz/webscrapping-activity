@@ -22,7 +22,19 @@
     = f.submit "Buscar", class: "btn btn-primary"
 
 - if params[:json]
-  - params[:json]["data"]["products"].each do |f|
-    = f["name"]
+  %table.px-2{:border => 1}
+    %tbody
+      %tr
+        %td Imagen
+        %td Producto
+        %td Precio
+      - params[:json]["data"]["products"].each do |f|
+        %tr
+          %td
+            %img{src: f["imagen"]}
+          %td
+            %a{href: f["url"], target: "_blank"}
+              = f["name"]
+          %td= f["price"]
     %br
 
