@@ -37,6 +37,8 @@ gem 'bootstrap', '~> 5.0.0.beta2'
 gem 'kimurai', '~> 1.0', '>= 1.0.1'
 #This is a JSON implementation as a Ruby extension in C.
 gem 'json', '~> 1.8', '>= 1.8.3'
+#A simple HTTP and REST client for Ruby, inspired by the Sinatra microframework style of specifying actions: get, put, post, delete.
+gem 'rest-client', '~> 2.0.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

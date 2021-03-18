@@ -1,14 +1,17 @@
+require 'json'
+require 'rest-client'
+
 class SearchProductController < ApplicationController
   def new
-    @search_product = SearchProduct.new() 
+    @search_product = SearchProduct.new()
+    search = [params[:json]]
   end
 
   def create
     @search_product = SearchProduct.new(get_params(params[:search_product]))
     if @search_product.save
-      add_link_to_txt_file(link)
-      SearchProducts::LinkResult.scrap
-      redirect_to show_search_product_path
+      json = SearchProducts::LinkResult.scrap(@search_product)
+      redirect_to new_search_product_path(:json => json )
     end
   end
 
@@ -17,14 +20,7 @@ class SearchProductController < ApplicationController
     {
       "product" => params[:product],
       "sort" => params[:sort],
-      "quantity" => params[:quantity],
-      "link" => SearchProducts::LinkResult.generate_link(params)
-    }
-  end
-
-  def add_link_to_txt_file(link)
-    file = File.open('pcel_link.txt', 'w') { |f|
-      f.write "#{link}"
+      "quantity" => params[:quantity]
     }
   end
 end

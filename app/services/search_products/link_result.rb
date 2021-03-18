@@ -1,5 +1,3 @@
-require_relative('../pcel_scrapper.rb')
-
 module SearchProducts
   module LinkResult
 
@@ -8,8 +6,22 @@ module SearchProducts
       url.link_with_params
     end
 
-    def self.scrap
-      PcelScrapper.crawl!
+    def self.scrap(search_product)
+      result = RestClient::Request.execute(
+        method: :post,
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json"
+        },
+        url: "https://wrapapi.com/use/miguelfdz/pcel_api/products/0.0.2",
+        payload: {
+          quantity: search_product.quantity,
+          product: search_product.product,
+          asc_or_desc: search_product.sort,
+          wrapAPIKey: "1RpZy0eQGTZgSaJArpszYkJ0CIMrvqLS"
+        }.to_json
+      )
+      ret = JSON.parse(result)
     end
 
     class Builder

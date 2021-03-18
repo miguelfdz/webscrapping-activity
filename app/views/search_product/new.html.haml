@@ -1,3 +1,5 @@
+- require 'json'
+
 %h1.mb-4
   PCEL Webscrapper
 - orders = {"ASC" => "Ascendiente", "DESC" => "Descendiente"}
@@ -18,3 +20,9 @@
             = key.label(class: 'form-check-label', for: "sort")
   .btn-lg
     = f.submit "Buscar", class: "btn btn-primary"
+
+- if params[:json]
+  - params[:json]["data"]["products"].each do |f|
+    = f["name"]
+    %br
+
