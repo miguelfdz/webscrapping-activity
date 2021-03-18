@@ -1,0 +1,1 @@
+https://pcel.com/index.php?route=product/search&filter_name=tarjeta%20grafica&sort=p.price&order=ASC&limit=7

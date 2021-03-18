@@ -33,6 +33,12 @@ gem 'simple_form'
 gem "haml-rails", "~> 2.0"
 #Bootstrap 4 ruby gem for Ruby on Rails (Sprockets) and Hanami (formerly Lotus).
 gem 'bootstrap', '~> 5.0.0.beta2'
+#Modern web scraping framework written in Ruby and based on Capybara/Nokogiri
+gem 'kimurai', '~> 1.0', '>= 1.0.1'
+#This is a JSON implementation as a Ruby extension in C.
+gem 'json', '~> 1.8', '>= 1.8.3'
+#A simple HTTP and REST client for Ruby, inspired by the Sinatra microframework style of specifying actions: get, put, post, delete.
+gem 'rest-client', '~> 2.0.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
